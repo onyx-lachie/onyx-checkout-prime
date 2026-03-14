@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Onyx Core Thank You Page - CSS-Only Overrides for GHL
+   Minimal overrides — does NOT touch video, buttons, or content elements.
+   ========================================================================== */
+
+/* ---------- Google Font ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ---------- Global Overrides ---------- */
+body,
+body * {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* ---------- Page Background ---------- */
+body {
+  background-color: #F8FAFB !important;
+}
+
+/* ---------- Header ---------- */
+.section-Aj8N1RzjU {
+  background-color: #FFFFFF !important;
+  padding: 4px 0 !important;
+  border-bottom: 1px solid #E8EAF0 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+}
+
+.section-Aj8N1RzjU [class*="row-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.section-Aj8N1RzjU [class*="col-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* ---------- Main Content Section ---------- */
+.section-Bhz71NLQwr {
+  background-color: #F8FAFB !important;
+}
+
+
+/* ---------- Footer ---------- */
+.section-DO4P8iOVw {
+  background-color: #1C1C1E !important;
+  padding: 4px 0 !important;
+  border-top: 1px solid #40424D !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.section-DO4P8iOVw [class*="row-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  min-height: 0 !important;
+}
+
+.section-DO4P8iOVw [class*="col-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
+}
+
+.row-Rz4BR2x1eV,
+.row-pmLj2kSO_c {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+}
+
+.section-DO4P8iOVw [class*="sub-heading-"],
+.section-DO4P8iOVw [class*="sub-heading-"] * {
+  color: #6E7180 !important;
+  font-size: 13px !important;
+}
