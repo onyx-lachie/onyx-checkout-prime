@@ -1,0 +1,175 @@
+/* ==========================================================================
+   Onyx Prime Checkout - CSS-Only Overrides for GHL
+   Paste this into GHL Custom CSS. Changes appearance only, no functionality.
+   NOTE: Does NOT touch the form/payment inputs — leave those to GHL defaults.
+   ========================================================================== */
+
+/* ---------- Google Font ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ---------- Global Overrides ---------- */
+body,
+body * {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* ---------- Page Background ---------- */
+body {
+  background-color: #F8FAFB !important;
+}
+
+/* ---------- Header ---------- */
+.section-Aj8N1RzjU {
+  background-color: #FFFFFF !important;
+  padding: 4px 0 !important;
+  border-bottom: 1px solid #E8EAF0 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+}
+
+.section-Aj8N1RzjU [class*="row-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.section-Aj8N1RzjU [class*="col-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* ---------- Main Content Section ---------- */
+.section-QJzdnjwhgU {
+  background-color: #F8FAFB !important;
+  padding: 48px 0 !important;
+}
+
+/* ---------- Content Row (card container) ---------- */
+.row-pY8GKVaomj {
+  background: #FFFFFF !important;
+  border: 1px solid #E8EAF0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06) !important;
+  overflow: hidden !important;
+}
+
+/* ---------- Headings ---------- */
+[class*="heading-"] {
+  color: #1C1C1E !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+}
+
+[class*="sub-heading-"] {
+  color: #6E7180 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+/* ---------- Bullet List (Features) ---------- */
+[class*="bulletList-"] {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+[class*="bulletList-"] li {
+  position: relative !important;
+  padding-left: 28px !important;
+  margin-bottom: 14px !important;
+  color: #6E7180 !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  list-style: none !important;
+}
+
+[class*="bulletList-"] li::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 5px !important;
+  width: 18px !important;
+  height: 18px !important;
+  background-color: #00F0B5 !important;
+  border-radius: 50% !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%231C1C1E' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 10px !important;
+}
+
+[class*="bulletList-"] ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+/* ---------- Right Column Background ---------- */
+.col-DeQVZy_WAX {
+  background: #FFFFFF !important;
+  border-left: 1px solid #E8EAF0 !important;
+}
+
+
+/* ---------- Paragraph Text ---------- */
+[class*="paragraph-"] {
+  color: #6E7180 !important;
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+}
+
+/* ---------- Footer ---------- */
+.section-DO4P8iOVw {
+  background-color: #1C1C1E !important;
+  padding: 4px 0 !important;
+  border-top: 1px solid #40424D !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.section-DO4P8iOVw [class*="row-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  min-height: 0 !important;
+}
+
+.section-DO4P8iOVw [class*="col-"] {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
+}
+
+/* Strip empty space from footer section rows */
+.row-Rz4BR2x1eV,
+.row-pmLj2kSO_c {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+}
+
+.section-DO4P8iOVw [class*="sub-heading-"],
+.section-DO4P8iOVw [class*="sub-heading-"] * {
+  color: #6E7180 !important;
+  font-size: 13px !important;
+}
+
+.section-DO4P8iOVw a {
+  color: #6E7180 !important;
+}
+
+.section-DO4P8iOVw a:hover {
+  color: #00F0B5 !important;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .row-pY8GKVaomj {
+    border-radius: 12px !important;
+    margin: 0 12px !important;
+  }
+
+  .col-DeQVZy_WAX {
+    border-left: none !important;
+    border-top: 1px solid #E8EAF0 !important;
+  }
+}
